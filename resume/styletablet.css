@@ -1,0 +1,99 @@
+@media all and (max-width: 1036px){
+    .ref2{
+        margin-left: 1px;
+        display: inline-block;
+    }
+    .references p{
+        display: inline-block;
+        padding-top: 20px;
+       padding-left: 10px;
+       padding-right: 50px;
+    }
+}
+@media all and (max-width: 981px){
+    main{
+        width: 100%;
+        
+    }
+    .references p{
+        display: inline-block;
+        padding: 20px 0 20px 100px; 
+    }
+    .ref2{
+        margin-left: 100px;
+    }
+    .sidebar{
+        width: 100%;
+        
+    }
+    .img{
+        width: 60%;
+        margin: auto;
+    }
+    .contact li{
+        text-align: center;
+        margin: auto;
+    }
+   .aboutme p{
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+   }
+   .hobbies {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+   .hobbies i{
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: 180px;
+   }
+}
+
+@media all and (max-width: 901px){
+    .references p{
+        display: inline-block;
+        padding: 10px;
+    }
+    .ref2{
+        margin-left: 80px;
+    }
+}
+@media all and (max-width: 813px){
+    .hobbies i{
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px;
+        margin-left: 150px;
+   }
+
+}
+@media all and (max-width: 721px){
+    
+    .references p{
+       display: block;
+    }
+.ref2{
+    display: block;
+    margin-left: 0;
+}
+ul{
+    margin-top: 20px;  
+    position: relative;
+}
+    .main li{
+        font-weight: bold;
+    }
+
+}
+@media all and (max-width: 664px){
+    .hobbies i{
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: 50px;
+   }
+}

@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3, p, h2, li, h1 {
+  padding-top: 20px;
+}
+
+.sidebar {
+  background-color: #e0cc10;
+  width: 25%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar img {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 50px;
+}
+
+.sidebar li {
+  list-style: none;
+  padding: 10px;
+}
+
+.sidebar ol {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar h1 {
+  background-color: #1d1c1c;
+  padding: 5px;
+  color: #e0cc10;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sidebar_aboutme p {
+  padding: 10px;
+  padding-left: 15px;
+  width: 75%;
+  text-align: left;
+  line-height: 25px;
+  margin-top: 40px;
+}
+
+.sidebar_hobbies {
+  padding-bottom: 30px;
+}
+
+.sidebar_hobbies i {
+  margin-top: 30px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+main {
+  width: 75%;
+  float: right;
+}
+
+main p, main ul {
+  padding-top: 20px;
+}
+
+.main_heading {
+  padding: 70px;
+  text-transform: uppercase;
+}
+
+.main_heading h1 span {
+  color: #e0cc10;
+}
+
+.upcome {
+  border-bottom: 2px solid #e0cc10;
+}
+
+.main_education, .main_experience, .main_references {
+  padding: 0 100px;
+}
+
+.main_education h3, .main_education h2, .main_experience h3, .main_experience h2, .main_references h3, .main_references h2 {
+  text-transform: uppercase;
+}
+
+.main_education h2, .main_experience h2, .main_references h2 {
+  padding: 5px;
+  border-bottom: 2px solid #e0cc10;
+}
+
+.main_education i, .main_experience i, .main_references i {
+  color: #e0cc10;
+  padding: 10px;
+}
+
+.main_education ul, .main_experience ul, .main_references ul {
+  margin-top: 20px;
+  position: absolute;
+}
+
+.main_sec {
+  width: 60%;
+  margin-left: 50%;
+}
+
+.main_references p {
+  display: inline-block;
+  padding: 20px 0 20px 100px;
+}
+
+@media all and (max-width: 1357px) {
+  .main_hobbies {
+    padding-bottom: 200px;
+  }
+}
+
+@media all and (max-width: 1230px) {
+  .main_hobbies i {
+    padding: 10px;
+    border: 2.5px black;
+  }
+}
+
+/* css tablet */
+@media all and (max-width: 1036px) {
+  .main_references p {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 50px;
+  }
+}
+
+@media all and (max-width: 981px) {
+  main {
+    width: 100%;
+  }
+  .main_references p {
+    display: inline-block;
+    padding: 20px 0 20px 100px;
+  }
+  .ref2 {
+    margin-left: 100px;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .sidebar_img img {
+    width: 60%;
+    margin: auto;
+  }
+  .sidebar_contact li {
+    text-align: center;
+    margin: auto;
+  }
+  .sidebar_aboutme p {
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .sidebar_hobbies {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .sidebar_hobbies i {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 180px;
+  }
+}
+
+@media all and (max-width: 901px) {
+  .main_references p {
+    display: inline-block;
+    padding: 10px;
+  }
+  .ref2 {
+    margin-left: 80px;
+  }
+}
+
+@media all and (max-width: 813px) {
+  .sidebar_hobbies i {
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 150px;
+  }
+}
+
+@media all and (max-width: 721px) {
+  .main_references p {
+    display: block;
+  }
+  .ref2 {
+    display: block;
+    margin-left: 0;
+  }
+  ul {
+    margin-top: 20px;
+    position: relative;
+  }
+  .main li {
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 664px) {
+  .sidebar_hobbies i {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+.sidebar_img img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.sidebar_img img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.sidebar_hobbies i {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.sidebar_hobbies i:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.fas {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.fas:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.name_us {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=animation.css.map */

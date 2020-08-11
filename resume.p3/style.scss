@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+h3, p, h2, li, h1{
+    padding-top: 20px;
+}
+
+// Varible 
+$main-color: rgb(224, 204, 16);
+$basic-color: rgb(0, 0, 0);
+
+.sidebar{
+    background-color: $main-color;
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    
+    img{
+        display: block;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 50%; 
+        padding: 50px;
+    }
+    li{
+        list-style: none;
+        padding: 10px;
+    }
+    ol{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    a{
+        text-decoration: none;
+        color: $basic-color;
+    }
+    h1{
+        background-color: #1d1c1c;
+        padding: 5px;
+        color: $main-color;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &_aboutme p{
+        padding: 10px;
+        padding-left: 15px;
+        width: 75%;
+        text-align: left;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+
+    &_hobbies{
+        padding-bottom: 30px;
+        i{
+            margin-top: 30px;
+            padding: 20px;
+            border: 3px solid $basic-color;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-right: auto;
+        }
+    }
+}
+
+main{
+    width: 75%;
+    float: right;
+
+    p,ul{
+        padding-top: 20px;
+    }
+}
+.main_heading{
+    padding: 70px;
+    text-transform: uppercase;
+
+    h1 span{
+        color: $main-color;
+    }
+}
+.upcome{
+    border-bottom: 2px solid $main-color;
+    
+}
+
+.main_education, .main_experience, .main_references{
+    padding: 0 100px;
+    
+    h3, h2{
+        text-transform: uppercase;
+    }
+    h2{
+        padding: 5px;
+        border-bottom: 2px solid $main-color;
+    }
+   i{
+    color: $main-color;
+    padding: 10px;
+   }
+   ul{
+    margin-top: 20px;  
+    position: absolute;
+}
+}
+.main_sec{
+    width: 60%;
+    margin-left: 50%; 
+}
+.main_references p{
+    display: inline-block;
+    padding: 20px 0 20px 100px; 
+   
+}
+
+//RESPONSIVE for all
+
+@media all and (max-width: 1357px) {
+    .main_hobbies{
+        padding-bottom: 200px;
+    }
+}
+@media all and (max-width: 1230px){
+    .main_hobbies i{
+        padding: 10px;
+        border: 2.5px $basic-color;
+    }  
+}
+/* css tablet */
+@media all and (max-width: 1036px){
+    
+    .main_references p{
+        display: inline-block;
+        padding-top: 20px; 
+       padding-left: 10px;
+       padding-right: 50px;
+    }
+}
+@media all and (max-width: 981px){
+    main{
+        width: 100%;
+        
+    }
+    .main_references p{
+        display: inline-block;
+        padding: 20px 0 20px 100px; 
+    }
+    .ref2{
+        margin-left: 100px;
+    }
+    .sidebar{
+        width: 100%;
+        
+    }
+    .sidebar_img img{
+        width: 60%;
+        margin: auto;
+    }
+    .sidebar_contact li{
+        text-align: center;
+        margin: auto;
+    }
+   .sidebar_aboutme p{
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+   }
+   .sidebar_hobbies {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+   .sidebar_hobbies i{
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: 180px;
+   }
+}
+
+@media all and (max-width: 901px){
+    .main_references p{
+        display: inline-block;
+        padding: 10px;
+    }
+    .ref2{
+        margin-left: 80px;
+    }
+}
+@media all and (max-width: 813px){
+    .sidebar_hobbies i{
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px;
+        margin-left: 150px;
+   }
+
+}
+@media all and (max-width: 721px){
+    
+    .main_references p{
+       display: block;
+    }
+.ref2{
+    display: block;
+    margin-left: 0;
+}
+ul{
+    margin-top: 20px;  
+    position: relative;
+}
+    .main li{
+        font-weight: bold;
+    }
+
+}
+@media all and (max-width: 664px){
+    .sidebar_hobbies i{
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: 50px;
+   }
+}

@@ -1,0 +1,22 @@
+@mixin logo-animation {
+    transform: scale(1.0);
+    transition-property: transform;
+    transition-duration: 500ms;
+    &:hover{
+        transform: scale(1.15);
+    }
+}
+
+
+.sidebar_img img{
+    @include logo-animation()
+}
+.sidebar_hobbies i{
+    @include logo-animation()
+}
+.fas {
+    @include logo-animation()
+}
+.name_us{
+    text-transform: uppercase;
+ }

@@ -1,0 +1,137 @@
+.sidebar_img img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.sidebar_img img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.sidebar_hobbies i {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.sidebar_hobbies i:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.fas {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.fas:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.name_us {
+  -webkit-animation-name: rainbow;
+          animation-name: rainbow;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  35% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  70% {
+    color: blue;
+  }
+  85% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  35% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  70% {
+    color: blue;
+  }
+  85% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.sidebar_contact li {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.sidebar_contact li:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.sidebar_contact :hover {
+  -webkit-animation-name: rainbow;
+          animation-name: rainbow;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.main_references p {
+  width: 280px;
+  height: 100px;
+  border-radius: 50%;
+  background: #e0cc10;
+}
+/*# sourceMappingURL=animation.css.map */

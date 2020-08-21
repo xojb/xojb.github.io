@@ -1,0 +1,56 @@
+@mixin logo-animation {
+    transform: scale(1.0);
+    transition-property: transform;
+    transition-duration: 500ms;
+    &:hover{
+        transform: scale(1.15);
+    }
+}
+// Varible 
+$main-color: rgb(224, 204, 16);
+$basic-color: rgb(0, 0, 0);
+
+.sidebar_img img{
+    @include logo-animation()
+}
+.sidebar_hobbies i{
+    @include logo-animation()
+}
+.fas {
+    @include logo-animation()
+}
+.name_us{
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes rainbow {
+    0%   {color: red;}
+    25%   {color: orange;}
+    35%  {color: yellow;}
+    50% {color: green;}
+    70%  {color: blue;}
+    85%   {color: indigo;}
+    100%   {color: violet;}
+  }
+
+  //contact info animation 
+
+  .sidebar_contact li{
+  @include logo-animation()
+  }
+  .sidebar_contact :hover{
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+ 
+  //refrence animation 
+
+  .main_references p{
+    width: 280px;
+    height: 100px;
+    border-radius: 50%;
+    background: $main-color;
+    
+  }

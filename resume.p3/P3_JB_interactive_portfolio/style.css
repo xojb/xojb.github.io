@@ -259,6 +259,9 @@ main p, main ul {
     padding: 20px;
     margin-left: 50px;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 .nav_menu a {

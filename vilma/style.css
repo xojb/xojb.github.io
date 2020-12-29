@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(238, 179, 243);
+}
+
+.img{
+    width: 30%;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 90%;
+}
+
+.side{
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.memory{
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+    padding: 20px;
+}
+.side h1{
+    font-size: 40px;
+}
+.side span{
+    color: rgb(85, 84, 84);
+
+}
+
+.side p{
+    font-size: 20px;
+}
+.side p, span{
+    margin-top: 5px;
+}
+
+/* nav */
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+.navbar{
+    margin-top: 50px;
+    margin-left: 350px;
+    border-bottom: 2px solid rgb(85, 9, 92);
+    width: 10%;
+}
+
+.obituary{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.obituary h2{
+    text-align: center;
+}
+.obituary p{
+    padding: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+/*images section*/
+.gallery img{
+    margin-top: 30px;
+    padding: 5px;
+    width:  430px;
+    height: 400px;
+    object-fit: cover;
+    top: 1px;
+    left: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,14 +4,14 @@ body{
 
 .img{
     width: 30%;
-    margin-left: 300px;
+    margin-left: 260px;
     margin-top: 50px;
     border-radius: 90%;
 }
 
 .side{
     float: right;
-    margin-right: 300px;
+    margin-right: 260px;
     margin-top: 50px;
 }
 .memory{
@@ -51,6 +51,21 @@ body{
     width: 10%;
 }
 
+.navbar a{
+    animation-name: rainbow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes rainbow {
+    0%   {color: red;}
+    25%   {color: orange;}
+    35%  {color: yellow;}
+    50% {color: green;}
+    70%  {color: blue;}
+    85%   {color: indigo;}
+    100%   {color: violet;}
+  }
+
 .obituary{
     width: 50%;
     margin: auto;
@@ -78,11 +93,95 @@ body{
 }
 
 
+@media all and (max-width: 1244px){
+    .img{
+        width: 25%;
+        
+    }
+    
+    .side{
+        width: 25%;
+       
+    }
+    .navbar{
+        margin-top: 150px;
+    }
+
+}
+
+@media all and (max-width: 1100px){
+    .img{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .side{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .obituary {
+        width: 70%;
+    }
+    .navbar{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+}
 
 
+@media all and (max-width: 1024px){
+    .navbar a{
+       text-align: center;
+        margin-left: auto;
+        width: 50%;
+        
+    }
+    .side{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
+}
 
+@media all and (max-width: 768px){
+    .side{
+        margin-right: 180px;
+    }
+    .navbar a{
+        margin-left: 250px;
+    }
+    .navbar{
+        border-bottom: none;
+    }
 
+}
+
+@media all and (max-width: 677px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar a{
+        margin-left: 200px;
+    }
+    
+}
+@media all and (max-width: 630px){
+    .side{
+        margin-right: 150px;
+    }
+}
+@media all and (max-width: 500px){
+    .side{
+        margin-right: 120px;
+    }
+    .navbar a{
+        margin-left: 100px;
+    }
+}
 
 
 
